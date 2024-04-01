@@ -353,11 +353,11 @@ En adoptant PSR-4, nous simplifions la gestion des dépendances et des espaces d
 
 Le "linting" est crucial pour identifier les erreurs syntaxiques, les problèmes de style de code et les pratiques potentiellement dangereuses avant l'exécution du code. Voici comment nous pouvons intégrer cela dans notre flux de travail : 
 
-### PHP_CodeSniffer (PHPCS) : Cet outil vérifie le code PHP contre un ensemble de règles définies ou standards de codage. Pour l'intégrer à notre projet Laravel, nous pouvons définir un standard de codage personnalisé basé sur les normes PSR et les conventions Laravel. PHPCS nous permettra d'analyser notre code pour détecter toute violation des standards. 
+**PHP_CodeSniffer (PHPCS)** : Cet outil vérifie le code PHP contre un ensemble de règles définies ou standards de codage. Pour l'intégrer à notre projet Laravel, nous pouvons définir un standard de codage personnalisé basé sur les normes PSR et les conventions Laravel. PHPCS nous permettra d'analyser notre code pour détecter toute violation des standards. 
 
  
 
-### Laravel Pint : Laravel Pint est un outil de formatage de code conçu spécifiquement pour Laravel, s'inspirant de PHP CS Fixer et autres outils de linting. Facile à utiliser et à configurer, Pint peut être exécuté automatiquement via le terminal ou intégré dans nos workflows CI/CD pour formater notre code selon les conventions Laravel. 
+**Laravel Pint** : Laravel Pint est un outil de formatage de code conçu spécifiquement pour Laravel, s'inspirant de PHP CS Fixer et autres outils de linting. Facile à utiliser et à configurer, Pint peut être exécuté automatiquement via le terminal ou intégré dans nos workflows CI/CD pour formater notre code selon les conventions Laravel. 
 
  
 
