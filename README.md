@@ -299,7 +299,7 @@ The above route would sort records by category name then by quote count.
 
 # Standards et Checklists de Qualité du Code 
 
-      ## 1. Standards de qualité 
+## 1. Standards de qualité 
 
 ### Suivre les standards de codage de Laravel 
 
